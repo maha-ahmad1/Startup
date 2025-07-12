@@ -41,8 +41,8 @@ const StartupForm = () => {
       }
 
       // Debug: Log the form values
-      console.log("Form values:", currentFormValues)
-      console.log("Pitch value:", pitch)
+      // console.log("Form values:", currentFormValues)
+      // console.log("Pitch value:", pitch)
 
       // Store form values to preserve them if validation fails
       setFormValues({
@@ -55,10 +55,10 @@ const StartupForm = () => {
       // Validate the form data
       try {
         await formSchema.parseAsync(currentFormValues)
-        console.log("Validation passed!")
+      //  console.log("Validation passed!")
       } catch (validationError) {
         console.log("Validation error:", validationError)
-        throw validationError
+       // throw validationError
       }
 
       // Call the server action with the correct parameters

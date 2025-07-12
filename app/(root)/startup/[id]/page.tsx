@@ -27,7 +27,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
   // ]);
 
   const post =await client.fetch(STARTUP_BY_ID_QUERY, { id })
-  console.log("image " + post.author.image)
+  //console.log("image " + post.author.image)
 
   if (!post) return notFound();
 
