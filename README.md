@@ -1,5 +1,5 @@
-Startup
 ![Logo](public/logo.png)
+
 A dummy project was created for educational purposes and to develop skills in building modern web applications using powerful, integrated technologies.
 
 ---
